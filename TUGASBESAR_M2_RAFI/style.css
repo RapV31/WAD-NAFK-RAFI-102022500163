@@ -1,0 +1,43 @@
+
+body {
+    background-color: lightblue; /* ini buat latar belakang biru muda wok*/
+    font-family: Arial, sans-serif; /* pke font yang umum2 ajah */
+}
+
+
+.kotak-form {
+    background-color: white; /* warna kotak menjadi putih */
+    width: 400px; /* lebar kotak */
+    margin: 50px auto; /* (tempat menaruh halamannya) membuat kotak berada tepat di tengah halaman */
+    padding: 20px; /* ada beri jarak antara tulisan dan tepi kotak */
+    border-radius: 10px; /* buat agar sedikit lebih bulat, ujung kotak menjadi agak bulat */
+    border: 2px solid darkblue; /* garis2 dipinggir kotak berwarna biru tua */
+}
+
+
+h1 {
+    color: darkblue; /* teks nya jadi berwarna biru tua */
+    text-align: center; /* teks nya berada di tengah */
+}
+
+
+input[type="text"], select {
+    width: 90%; /* lebarnya memenuhi hampir seluruh kotak */
+    padding: 8px; /* jarak atau ruang di dalam kotak input agar tidak sempit */
+    margin-bottom: 10px; /* jarak dengan elemen di bawahnya */
+}
+
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer; /* Kursor berubah menjadi tangan saat diarahkan */
+    width: 100%; /* Lebar tombol penuhi form */
+}
+
+/* Efek saat tombol disorot (hover) */
+button:hover {
+    background-color: blue; /* Warna sedikit lebih terang saat disorot */
+}
